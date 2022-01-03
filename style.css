@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 30px auto 0;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+}
+
+.cv-name {
+    width: 545px;
+    height: 191px;
+    color: #111111;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    margin-right: 130px;
+}
+
+.contacts-info {
+    width: 760px;
+    height: 150px;
+    background-color: #111111;
+    color: white;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 760px;
+    height: 150px;
+    list-style: none;
+}
+
+.contact-item > h3 {
+    color: #ffffff;
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contact-item > p {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+main {
+    display: flex;
+}
+
+.block-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.block-2 > section {
+    margin: 50px;
+}
+
+.block-2 > section > h2, aside > h2 {
+    width: 380px;
+    height: 80px;
+    color: #111111;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 58.33px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 7.5px;
+    line-height: normal;
+    
+}
+
+.block-2 > section > p,  .block-2 > section > ul{
+    width: 660px;
+    color: #252525;
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 66.67px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.courses-list {
+    list-style: none;
+}
+
+.course-item {
+    margin: 20px;
+}
+
+.code-text {
+    background-color: #acacac;
+}
+
+code {
+    width: 300px;
+    color: #252525;
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+.left-column {
+    width: 760px;
+}
+
+.right-column {
+    width: 385px;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+aside {
+    margin: 40px;
+}
+
+aside > ul {
+    list-style-type: square;
+    width: 250px;
+    height: 38px;
+    color: #282828;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    font-style: normal;
+    line-height: 35px;
+    margin-left: 22px;
+}
+
+.skills-list {
+    margin-top: 40px;
+}
+
+.page-footer {
+    width: 1145px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: grey;
+}
+
+.footer-link-list {
+    display: flex;
+    list-style: none;
+}
+
+.footer-link-item {
+    margin-left: 480px;
+}
+
+.github {
+    margin-top: 15px;
+}
